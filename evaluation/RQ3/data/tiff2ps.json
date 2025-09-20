@@ -1,0 +1,122 @@
+{
+    "GLOBAL_MIN_DISTANCES": {
+        "global_min_data": [
+            {
+                "id": "000000",
+                "timestamp": 0,
+                "distance": 5091.326337,
+                "total_distance": 80534600,
+                "total_count": 15818,
+                "filename": "id:000000,orig:bumble-bee1.swf",
+                "opt": false,
+                "src": "init"
+            },
+            {
+                "id": "000010",
+                "timestamp": 282983,
+                "distance": 4726.513002,
+                "total_distance": 81612700,
+                "total_count": 17267,
+                "filename": "id:000010,282983,src:000000,op:arith8,pos:0,val:+3,+cov*dist:3300*",
+                "opt": false,
+                "src": "000000"
+            },
+            {
+                "id": "000018",
+                "timestamp": 4041214,
+                "distance": 4722.247694,
+                "total_distance": 84457400,
+                "total_count": 17885,
+                "filename": "id:000018,4041214,src:000010,op:flip1,pos:8,+count*dist:3300*",
+                "opt": false,
+                "src": "000010"
+            },
+            {
+                "id": "000136",
+                "timestamp": 4351489,
+                "distance": 4716.680939,
+                "total_distance": 82622100,
+                "total_count": 17517,
+                "filename": "id:000136,4351489,src:000010,op:arith8,pos:394,val:+22,+count*dist:3300*",
+                "opt": false,
+                "src": "000010"
+            },
+            {
+                "id": "000156",
+                "timestamp": 4384318,
+                "distance": 4716.467433,
+                "total_distance": 80882700,
+                "total_count": 17149,
+                "filename": "id:000156,4384318,src:000010,op:arith8,pos:686,val:+10,+cov*dist:3300*",
+                "opt": false,
+                "src": "000010"
+            },
+            {
+                "id": "000209",
+                "timestamp": 4604832,
+                "distance": 4714.280099,
+                "total_distance": 83951900,
+                "total_count": 17808,
+                "filename": "id:000209,4604832,src:000010,op:int32,pos:393,val:be:+1000,+count*dist:3300*",
+                "opt": false,
+                "src": "000010"
+            },
+            {
+                "id": "000342",
+                "timestamp": 4794023,
+                "distance": 4700.328522,
+                "total_distance": 127336600,
+                "total_count": 27091,
+                "filename": "id:000342,4794023,src:000010,op:havoc,rep:32,+count*dist:300*",
+                "opt": false,
+                "src": "000010"
+            },
+            {
+                "id": "000345",
+                "timestamp": 4795480,
+                "distance": 4355.286003,
+                "total_distance": 126926100,
+                "total_count": 29143,
+                "filename": "id:000345,4795480,src:000010,op:havoc,rep:64,+count*dist:300*",
+                "opt": false,
+                "src": "000010"
+            },
+            {
+                "id": "000605",
+                "timestamp": 19636747,
+                "distance": 4334.80071,
+                "total_distance": 134313800,
+                "total_count": 30985,
+                "filename": "id:000605,19636747,src:000103,op:havoc,rep:32,+count*dist:300*",
+                "opt": false,
+                "src": "000103"
+            }
+        ]
+    },
+    "OI_QUEUE_ONLY": {
+        "time_points": [
+            0
+        ],
+        "min_distances": [
+            5091.326337
+        ]
+    },
+    "FI_QUEUE_ONLY": {
+        "time_points": [
+            0,
+            26983,
+            941214,
+            1651489,
+            3295480,
+            19536747
+        ],
+        "min_distances": [
+            5091.326337,
+            4896.513002,
+            4692.247694,
+            4670.328522,
+            4370.286003,
+            4368.80071
+        ]
+    }
+}

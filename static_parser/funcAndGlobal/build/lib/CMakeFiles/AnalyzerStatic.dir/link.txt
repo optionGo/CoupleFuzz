@@ -1,0 +1,2 @@
+/usr/bin/ar qc libAnalyzerStatic.a  CMakeFiles/AnalyzerObj.dir/Analyzer.cc.o
+/usr/bin/ranlib libAnalyzerStatic.a

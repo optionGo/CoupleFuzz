@@ -1,0 +1,144 @@
+{
+    "GLOBAL_MIN_DISTANCES": {
+        "global_min_data": [
+            {
+                "id": "000000",
+                "timestamp": 0,
+                "distance": 3010.482759,
+                "total_distance": 320000,
+                "total_count": 29,
+                "filename": "id:000000,orig:32PE.elf",
+                "opt": false,
+                "src": "init"
+            },
+            {
+                "id": "000008",
+                "timestamp": 180000,
+                "distance": 2901.285714,
+                "total_distance": 368700,
+                "total_count": 35,
+                "filename": "id:000008,293,src:000007,op:oga,pos:0,+cov*dist:1100*-a",
+                "opt": false,
+                "src": "000007"
+            },
+            {
+                "id": "000023",
+                "timestamp": 739020,
+                "distance": 2892.857143,
+                "total_distance": 1768000,
+                "total_count": 224,
+                "filename": "id:000023,7728,src:000008,op:havoc,rep:64,+cov*dist:1000*-a",
+                "opt": false,
+                "src": "000008"
+            },
+            {
+                "id": "000023",
+                "timestamp": 1021000,
+                "distance": 2793.857143,
+                "total_distance": 1768000,
+                "total_count": 224,
+                "filename": "id:000023,7728,src:000008,op:havoc,rep:64,+cov*dist:1000*-a",
+                "opt": false,
+                "src": "000008"
+            },
+            {
+                "id": "000023",
+                "timestamp": 1421000,
+                "distance": 2681.857143,
+                "total_distance": 1768000,
+                "total_count": 224,
+                "filename": "id:000023,7728,src:000008,op:havoc,rep:64,+cov*dist:1000*-a",
+                "opt": false,
+                "src": "000008"
+            },
+            {
+                "id": "000023",
+                "timestamp": 5868000,
+                "distance": 2541.857143,
+                "total_distance": 1768000,
+                "total_count": 224,
+                "filename": "id:000023,7728,src:000008,op:havoc,rep:64,+cov*dist:1000*-a",
+                "opt": true,
+                "src": "000008"
+            },
+            {
+                "id": "000029",
+                "timestamp": 7001000,
+                "distance": 2532.5,
+                "total_distance": 1571900,
+                "total_count": 200,
+                "filename": "id:000029,14917,src:000008,op:havoc,rep:64,+cov*dist:1000*-a",
+                "opt": false,
+                "src": "000008"
+            },
+            {
+                "id": "000036",
+                "timestamp": 9016907,
+                "distance": 2471.449133,
+                "total_distance": 19778800,
+                "total_count": 2654,
+                "filename": "id:000036,261697,src:000012+000003,op:splice,rep:16,+cov*dist:800*-A",
+                "opt": false,
+                "src": "init"
+            },
+            {
+                "id": "000038",
+                "timestamp": 15170806,
+                "distance": 2421.038446,
+                "total_distance": 36891500,
+                "total_count": 5046,
+                "filename": "id:000038,261786,src:000012+000003,op:splice,rep:2,+cov*dist:800*-A",
+                "opt": false,
+                "src": "init"
+            },
+            {
+                "id": "000046",
+                "timestamp": 19810099,
+                "distance": 2381.329104,
+                "total_distance": 36873300,
+                "total_count": 5044,
+                "filename": "id:000046,262199,src:000012+000003,op:splice,rep:8,+cov*dist:800*-A",
+                "opt": false,
+                "src": "init"
+            }
+        ]
+    },
+    "OI_QUEUE_ONLY": {
+        "time_points": [
+            0,
+            293
+        ],
+        "min_distances": [
+            3010.482759,
+            3010.482759
+        ]
+    },
+    "FI_QUEUE_ONLY": {
+        "time_points": [
+            0,
+            18910,
+            131902,
+            751000,
+            781000,
+            1221000,
+            10728000,
+            18141391,
+            21141391,
+            23841391,
+            34139999
+        ],
+        "min_distances": [
+            3010.482759,
+            2950,
+            2896,
+            2768,
+            2693,
+            2651,
+            2521,
+            2478,
+            2401,
+            2391,
+            2381
+        ]
+    }
+}

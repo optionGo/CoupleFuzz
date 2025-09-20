@@ -1,0 +1,1 @@
+./jasper --output-format jp2 --verbose --debug-level 975434030 --force-srgb --input $POC --output /dev/null

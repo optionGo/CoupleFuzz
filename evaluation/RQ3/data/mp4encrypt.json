@@ -1,0 +1,122 @@
+{
+    "GLOBAL_MIN_DISTANCES": {
+        "global_min_data": [
+            {
+                "id": "000000",
+                "timestamp": 0,
+                "distance": 616.75,
+                "total_distance": 1667,
+                "total_count": 4,
+                "filename": "id:000000,orig:32PE.elf",
+                "opt": false,
+                "src": "init"
+            },
+            {
+                "id": "000209",
+                "timestamp": 398817,
+                "distance": 590.318194,
+                "total_distance": 898745585,
+                "total_count": 2805790,
+                "filename": "id:000209,3982817,src:000155,op:havoc,rep:8,+count*dist:109*-D",
+                "opt": false,
+                "src": "000155"
+            },
+            {
+                "id": "000209",
+                "timestamp": 698817,
+                "distance": 580.318194,
+                "total_distance": 898745585,
+                "total_count": 2805790,
+                "filename": "id:000209,3982817,src:000155,op:havoc,rep:8,+count*dist:109*-D",
+                "opt": false,
+                "src": "000155"
+            },
+            {
+                "id": "000209",
+                "timestamp": 1298817,
+                "distance": 460.318194,
+                "total_distance": 898745585,
+                "total_count": 2805790,
+                "filename": "id:000209,3982817,src:000155,op:havoc,rep:8,+count*dist:109*-D",
+                "opt": true,
+                "src": "000155"
+            },
+            {
+                "id": "000258",
+                "timestamp": 4815722,
+                "distance": 391.011105,
+                "total_distance": 1627974706,
+                "total_count": 5135387,
+                "filename": "id:000258,4815722,src:000241,op:havoc,rep:4,+cov*dist:109*-D",
+                "opt": false,
+                "src": "000241"
+            },
+            {
+                "id": "000558",
+                "timestamp": 11922155,
+                "distance": 360.75489,
+                "total_distance": 1710352555,
+                "total_count": 5399609,
+                "filename": "id:000558,11922155,src:000536,op:arith8,pos:2600,val:+20,+count*dist:109*-D -t",
+                "opt": false,
+                "src": "000536"
+            },
+            {
+                "id": "000632",
+                "timestamp": 14266579,
+                "distance": 340.72046,
+                "total_distance": 1709907253,
+                "total_count": 5398790,
+                "filename": "id:000632,14266579,src:000605+000559,op:splice,rep:4,+cov*dist:109*-D",
+                "opt": false,
+                "src": "init"
+            },
+            {
+                "id": "000632",
+                "timestamp": 22320000,
+                "distance": 310.72046,
+                "total_distance": 1709907253,
+                "total_count": 5398790,
+                "filename": "id:000632,14266579,src:000605+000559,op:splice,rep:4,+cov*dist:109*-D",
+                "opt": false,
+                "src": "init"
+            },
+            {
+                "id": "000632",
+                "timestamp": 28080000,
+                "distance": 300.72046,
+                "total_distance": 1709907253,
+                "total_count": 5398790,
+                "filename": "id:000632,14266579,src:000605+000559,op:splice,rep:4,+cov*dist:109*-D",
+                "opt": false,
+                "src": "init"
+            }
+        ]
+    },
+    "OI_QUEUE_ONLY": {
+        "time_points": [
+            0
+        ],
+        "min_distances": [
+            616.75
+        ]
+    },
+    "FI_QUEUE_ONLY": {
+        "time_points": [
+            0,
+            498817,
+            598817,
+            1813100,
+            4013100,
+            15120000
+        ],
+        "min_distances": [
+            616.75,
+            590,
+            570.318194,
+            543,
+            522,
+            498
+        ]
+    }
+}

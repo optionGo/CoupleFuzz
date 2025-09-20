@@ -1,0 +1,162 @@
+{
+    "GLOBAL_MIN_DISTANCES": {
+        "global_min_data": [
+            {
+                "id": "000000",
+                "timestamp": 0,
+                "distance": 1347.121705,
+                "total_distance": 20289000,
+                "total_count": 15061,
+                "filename": "id:000000,orig:bumble-bee1.swf",
+                "opt": false,
+                "src": "init"
+            },
+            {
+                "id": "000009",
+                "timestamp": 41053,
+                "distance": 1010.502145,
+                "total_distance": 16722800,
+                "total_count": 16549,
+                "filename": "id:000009,41053,src:000000,op:arith8,pos:0,val:+3,+cov*dist:100*",
+                "opt": false,
+                "src": "000000"
+            },
+            {
+                "id": "000017",
+                "timestamp": 1895917,
+                "distance": 1006.646473,
+                "total_distance": 17281100,
+                "total_count": 17167,
+                "filename": "id:000017,1895917,src:000009,op:flip1,pos:8,+count*dist:100*",
+                "opt": false,
+                "src": "000009"
+            },
+            {
+                "id": "000049",
+                "timestamp": 1926429,
+                "distance": 1005.410448,
+                "total_distance": 17244800,
+                "total_count": 17152,
+                "filename": "id:000049,1926429,src:000009,op:flip1,pos:585,+count*dist:100*",
+                "opt": false,
+                "src": "000009"
+            },
+            {
+                "id": "000108",
+                "timestamp": 2058203,
+                "distance": 1004.867366,
+                "total_distance": 16288900,
+                "total_count": 16210,
+                "filename": "id:000108,2058203,src:000009,op:arith8,pos:374,val:-20,+count*dist:100*",
+                "opt": false,
+                "src": "000009"
+            },
+            {
+                "id": "000163",
+                "timestamp": 2387520,
+                "distance": 1003.594981,
+                "total_distance": 17196600,
+                "total_count": 17135,
+                "filename": "id:000163,2387520,src:000009,op:ext_AO,pos:695,+count*dist:100*",
+                "opt": false,
+                "src": "000009"
+            },
+            {
+                "id": "000265",
+                "timestamp": 2500984,
+                "distance": 990.805011,
+                "total_distance": 16529600,
+                "total_count": 16683,
+                "filename": "id:000265,2500984,src:000009,op:havoc,rep:32,+count*dist:100*",
+                "opt": false,
+                "src": "000009"
+            },
+            {
+                "id": "000265",
+                "timestamp": 6489000,
+                "distance": 961.805011,
+                "total_distance": 16529600,
+                "total_count": 16683,
+                "filename": "id:000265,2500984,src:000009,op:havoc,rep:32,+count*dist:100*",
+                "opt": false,
+                "src": "000009"
+            },
+            {
+                "id": "000265",
+                "timestamp": 7709000,
+                "distance": 941.805011,
+                "total_distance": 16529600,
+                "total_count": 16683,
+                "filename": "id:000265,2500984,src:000009,op:havoc,rep:32,+count*dist:100*",
+                "opt": false,
+                "src": "000009"
+            },
+            {
+                "id": "000265",
+                "timestamp": 35640000,
+                "distance": 811.805011,
+                "total_distance": 16529600,
+                "total_count": 16683,
+                "filename": "id:000265,2500984,src:000009,op:havoc,rep:32,+count*dist:100*",
+                "opt": false,
+                "src": "000009"
+            },
+            {
+                "id": "000265",
+                "timestamp": 50400000,
+                "distance": 811.805011,
+                "total_distance": 16529600,
+                "total_count": 16683,
+                "filename": "id:000265,2500984,src:000009,op:havoc,rep:32,+count*dist:100*",
+                "opt": false,
+                "src": "000009"
+            },
+            {
+                "id": "000265",
+                "timestamp": 50400005,
+                "distance": 780.805011,
+                "total_distance": 16529600,
+                "total_count": 16683,
+                "filename": "id:000265,2500984,src:000009,op:havoc,rep:32,+count*dist:100*",
+                "opt": false,
+                "src": "000009"
+            }
+        ]
+    },
+    "OI_QUEUE_ONLY": {
+        "time_points": [
+            0
+        ],
+        "min_distances": [
+            1347.121705
+        ]
+    },
+    "FI_QUEUE_ONLY": {
+        "time_points": [
+            0,
+            41053,
+            1795917,
+            1926429,
+            2458203,
+            2487520,
+            2500984,
+            5740000,
+            7983000,
+            23010000,
+            31680000
+        ],
+        "min_distances": [
+            1347.121705,
+            1020.502145,
+            1012.646473,
+            996.410448,
+            996.867366,
+            993.594981,
+            989.805011,
+            901,
+            894,
+            863,
+            815
+        ]
+    }
+}

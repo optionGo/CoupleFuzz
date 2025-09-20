@@ -1,0 +1,130 @@
+{
+    "GLOBAL_MIN_DISTANCES": {
+        "global_min_data": [
+            {
+                "id": "000000",
+                "timestamp": 0,
+                "distance": 4287.819549,
+                "total_distance": 2851400,
+                "total_count": 665,
+                "filename": "id:000000,orig:NULL-pointer-dereference@ras_putdatastd",
+                "opt": false,
+                "src": "init"
+            },
+            {
+                "id": "000041",
+                "timestamp": 253370,
+                "distance": 4179.233227,
+                "total_distance": 6540500,
+                "total_count": 1565,
+                "filename": "id:000041,253370,src:000004,op:flip1,pos:0,+cov*dist:1800*--output-format pnm",
+                "opt": false,
+                "src": "000004"
+            },
+            {
+                "id": "000248",
+                "timestamp": 363370,
+                "distance": 3670.170131,
+                "total_distance": 145411500,
+                "total_count": 66061,
+                "filename": "id:000248,13815442,src:000200,op:havoc,rep:32,+count*dist:1700*--output-format pnm",
+                "opt": false,
+                "src": "000200"
+            },
+            {
+                "id": "000248",
+                "timestamp": 1656000,
+                "distance": 3540.170131,
+                "total_distance": 145411500,
+                "total_count": 66061,
+                "filename": "id:000248,13815442,src:000200,op:havoc,rep:32,+count*dist:1700*--output-format pnm",
+                "opt": false,
+                "src": "000200"
+            },
+            {
+                "id": "000248",
+                "timestamp": 2412000,
+                "distance": 2901.170131,
+                "total_distance": 145411500,
+                "total_count": 66061,
+                "filename": "id:000248,13815442,src:000200,op:havoc,rep:32,+count*dist:1700*--output-format pnm",
+                "opt": true,
+                "src": "000200"
+            },
+            {
+                "id": "000248",
+                "timestamp": 5616544,
+                "distance": 2701.170131,
+                "total_distance": 145411500,
+                "total_count": 66061,
+                "filename": "id:000248,13815442,src:000200,op:havoc,rep:32,+count*dist:1700*--output-format pnm",
+                "opt": false,
+                "src": "000200"
+            },
+            {
+                "id": "000248",
+                "timestamp": 7916544,
+                "distance": 2656.170131,
+                "total_distance": 145411500,
+                "total_count": 66061,
+                "filename": "id:000248,13815442,src:000200,op:havoc,rep:32,+count*dist:1700*--output-format pnm",
+                "opt": false,
+                "src": "000200"
+            },
+            {
+                "id": "000248",
+                "timestamp": 11160544,
+                "distance": 2389.170131,
+                "total_distance": 145411500,
+                "total_count": 66061,
+                "filename": "id:000248,13815442,src:000200,op:havoc,rep:32,+count*dist:1700*--output-format pnm",
+                "opt": false,
+                "src": "000200"
+            },
+            {
+                "id": "000248",
+                "timestamp": 13815442,
+                "distance": 2201.170131,
+                "total_distance": 145411500,
+                "total_count": 66061,
+                "filename": "id:000248,13815442,src:000200,op:havoc,rep:32,+count*dist:1700*--output-format pnm",
+                "opt": false,
+                "src": "000200"
+            },
+            {
+                "id": "000248",
+                "timestamp": 18815442,
+                "distance": 2201.170131,
+                "total_distance": 145411500,
+                "total_count": 66061,
+                "filename": "id:000248,13815442,src:000200,op:havoc,rep:32,+count*dist:1700*--output-format pnm",
+                "opt": false,
+                "src": "000200"
+            }
+        ]
+    },
+    "OI_QUEUE_ONLY": {
+        "time_points": [
+            0
+        ],
+        "min_distances": [
+            4287.319549
+        ]
+    },
+    "FI_QUEUE_ONLY": {
+        "time_points": [
+            0,
+            363370,
+            793370,
+            2988000,
+            7561000
+        ],
+        "min_distances": [
+            4287.819549,
+            4179,
+            3600.170131,
+            3510.170131,
+            3391
+        ]
+    }
+}

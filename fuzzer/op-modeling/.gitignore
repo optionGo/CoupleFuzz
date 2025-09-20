@@ -1,0 +1,71 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+#LLVM objects
+*.bc
+*.ll
+*.so
+#debug
+.gdb_history
+
+#build & install directory
+build/*
+*/build/*
+install/*
+target/*
+*/.cache/*
+
+#VS Code
+.vscode/*
+
+#Cmake files
+*/CMakeCache.txt
+*/CMakeFiles/*
+*/Makefile
+*/cmake_install.cmake
+
+afl-as
+afl-clang
+afl-clang++
+afl-clang-fast
+afl-clang-fast++
+afl-cmin
+afl-fuzz
+afl-g++
+afl-gcc
+afl-gotcpu
+afl-plot
+afl-showmap
+afl-tmin
+afl-whatsup
+as

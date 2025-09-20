@@ -1,0 +1,60 @@
+{
+    "GLOBAL_MIN_DISTANCES": {
+        "global_min_data": [
+            {
+                "id": "000000",
+                "timestamp": 0,
+                "distance": 2105.893949,
+                "total_distance": 553445003300,
+                "total_count": 112812264,
+                "filename": "id:000000,orig:test_horizontal_motion.hevc",
+                "opt": false,
+                "src": "init"
+            },
+            {
+                "id": "000001",
+                "timestamp": 674800,
+                "distance": 1905.893071,
+                "total_distance": 553444786500,
+                "total_count": 112812240,
+                "filename": "id:000001,541297,src:000000,op:oga,pos:0,+cov*dist:100*-q",
+                "opt": true,
+                "src": "000000"
+            },
+            {
+                "id": "000025",
+                "timestamp": 1020000,
+                "distance": 1605.815342,
+                "total_distance": 553421913500,
+                "total_count": 112809365,
+                "filename": "id:000025,1358457,src:000000,op:flip1,pos:1,+cov*dist:100*",
+                "opt": true,
+                "src": "000000"
+            }
+        ]
+    },
+    "OI_QUEUE_ONLY": {
+        "time_points": [
+            0,
+            693000,
+            786000,
+            792000
+        ],
+        "min_distances": [
+            2105.893949,
+            1805.893949,
+            1705.893949,
+            1605.893949
+        ]
+    },
+    "FI_QUEUE_ONLY": {
+        "time_points": [
+            0,
+            1350252
+        ],
+        "min_distances": [
+            2105.893949,
+            2105.893949
+        ]
+    }
+}

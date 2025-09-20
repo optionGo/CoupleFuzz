@@ -1,0 +1,11 @@
+/home/osmart/sources/funcAndGlobal/build/CMakeFiles/rebuild_cache.dir
+/home/osmart/sources/funcAndGlobal/build/CMakeFiles/acc_gen.dir
+/home/osmart/sources/funcAndGlobal/build/CMakeFiles/edit_cache.dir
+/home/osmart/sources/funcAndGlobal/build/CMakeFiles/omp_gen.dir
+/home/osmart/sources/funcAndGlobal/build/CMakeFiles/intrinsics_gen.dir
+/home/osmart/sources/funcAndGlobal/build/lib/CMakeFiles/rebuild_cache.dir
+/home/osmart/sources/funcAndGlobal/build/lib/CMakeFiles/edit_cache.dir
+/home/osmart/sources/funcAndGlobal/build/lib/CMakeFiles/kanalyzer.dir
+/home/osmart/sources/funcAndGlobal/build/lib/CMakeFiles/AnalyzerStatic.dir
+/home/osmart/sources/funcAndGlobal/build/lib/CMakeFiles/Analyzer.dir
+/home/osmart/sources/funcAndGlobal/build/lib/CMakeFiles/AnalyzerObj.dir

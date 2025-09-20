@@ -1,0 +1,15 @@
+export CXX10="/usr/bin/clang++-10"
+export CC10="/usr/bin/clang-10"
+export CC="/home/optionfuzz/op-modeling/install/test-clang"
+export CXX="/home/optionfuzz/op-modeling/install/test-clang++"
+export CFLAGS="-parameter-option-path /home/test/cbi_test/cpp_demo/option.json -distance-path /home/distance.txt"
+export CFLAGS="-parameter-option-path /home/test/cbi_test/c_demo/option.json -distance-path /home/distance.txt"
+export CFLAGS="-parameter-option-path /home/optionfuzz/op-modeling/test/osmart_output.json -distance-path /home/distance.txt"
+export CXXFLAGS=$CFLAGS
+
+cmake ..
+make > make_output.log 2>&1
+
+clang-10 main.cpp string_utils.cpp math_utils.cpp -I../include -c -emit-llvm -S -g -O0
+
+/usr/bin/clang++-10 -I/home/test/cbi_test/cpp_demo/include -Wall -Wextra -std=gnu++17 -o main.ll -c /home/test/cbi_test/cpp_demo/src/main.cpp -emit-llvm -S -Xclang -load -Xclang /home/optionfuzz/op-modeling/install/pass/libOptionHandlingPass.so -mllvm -chunk-exploitation-list=/home/optionfuzz/op-modeling/install/rules/exploitation_list.txt -mllvm -parameter-option-path=/home/test/cbi_test/cpp_demo/option.json -mllvm -distance-path=/home/distance.txt -Xclang -load -Xclang /home/optionfuzz/op-modeling/install/pass/libDFSanPass.so -mllvm -chunk-dfsan-abilist=/home/optionfuzz/op-modeling/install/rules/angora_abilist.txt -mllvm -chunk-dfsan-abilist=/home/optionfuzz/op-modeling/install/rules/dfsan_abilist.txt -pie -fpic -Qunused-arguments -fno-discard-value-names -g -O0 -L/home/optionfuzz/op-modeling/install/lib/libcxx_track/ -stdlib=libc++ -Wl,--start-group -lc++abitrack -lc++abi -Wl,--end-group 

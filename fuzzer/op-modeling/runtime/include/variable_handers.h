@@ -1,0 +1,1 @@
+void __variable_counter_fini();
